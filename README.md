@@ -1,7 +1,7 @@
 # Plugin-Framework
 
 Plugin-Framework is the web API project that done to cover the requrement in the test case given, Project is being used .netcore 6 and singleton architecture 
-pattern to suit the requrement and there is a one controller which listn to pickup image data. Nullables have being disabled to the requrement in the project
+pattern to suits the requrement and there is a one controller which listn to pickup image data. Nullables have being disabled to the requrement in the project
 settings.
 
 [HttpPost]
