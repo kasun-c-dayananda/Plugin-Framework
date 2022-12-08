@@ -9,16 +9,6 @@ public async Task<object> Post([FromForm] List<RequestDto> imageData){
 => this post methods accepts form type file with mulltiple images with relevent data as the test says
 }
 
-=> this is the request body requrement which will be a list in controller to handle mulltiple image uploads at ones
-public class RequestDto
-{
-public int CustomerID { get; set; }
-public IFormFile File { get; set; }
-public List<int> Effects { get; set; }
-public int Radius { get; set; }
-public double Size { get; set; }
-}
-
 # TestImageEditorAPI
 
 this is the MOQ test class library to test the POST method and IApplicationImageEdit interface to perform unit testing.
